@@ -22,6 +22,34 @@ The data store will also support the following non-functional requirements:
 
 The application has been developed as a library so that users can just import it and create an instance of the class and work with the data store by invoking relevant methods. The application satisfies both the **functional and non-functional requirements mentioned above**.
 
+## File Structure
+
+- `src/mercury_db/datastore.py` - The library that contains the methods for performing CRUD Operations.
+- `setup.py` 
+
+## Installation
+
+```
+pip install mercury-db
+```
+
+## Usage
+
+Consider the following examples:
+
+```
+from src.mercury_db.datastore import *
+
+ds = DataStore()
+ds.create('myname', 'Vaidhyanathan', 60)
+print(ds.read('myname'))
+ds.create('New Delhi', 'India Gate')
+ds.delete('myname')
+print(ds.read('New Delhi'))
+print(ds.read('name'))
+
+```
+
 ## Development Environment
 
 - OS: Linux (Ubuntu) - Linux-5.11.0-41
@@ -29,7 +57,3 @@ The application has been developed as a library so that users can just import it
 
 The application **doesn't have any OS specific dependencies and should run without any problems in Mac and Windows as well**.
 
-## File Structure
-
-- `src/mercury_db/datastore.py` - The library that contains the methods for performing CRUD Operations.
-- `setup.py` 
