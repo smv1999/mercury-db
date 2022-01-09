@@ -4,11 +4,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='mercury-db',
+    name='mercury_db',
     version='0.0.1',
     description='The mercury-db package is a simple key-value datastore',
-    packages=['mercury-db'],
-    py_modules=['py_dsa.mercury-db'],
+    packages=['mercury_db'],
+    py_modules=['mercury_db.datastore'],
     package_dir={'': 'src'},
     extras_require={
         "dev": [
