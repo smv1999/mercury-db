@@ -1,5 +1,14 @@
 # mercury-db
 
+
+![GitHub followers](https://img.shields.io/github/followers/smv1999?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/smv1999/mercury-db?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/smv1999/mercury-db?style=for-the-badge)
+![Lines of code](https://img.shields.io/tokei/lines/github/smv1999/mercury-db?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/smv1999/mercury-db?color=blue&style=for-the-badge)
+![PyPI](https://img.shields.io/pypi/v/mercury-db?color=blue&style=for-the-badge)
+
+
 This is a File Based Key-Value Datastore that supports basic CRUD (Create, Read, Update, Delete) operations developed using `Python`.
 
 The data store will support the following functional requirements:
@@ -37,7 +46,7 @@ pip install mercury-db
 
 Consider the following examples:
 
-```
+```python
 from src.mercury_db.datastore import *
 
 ds = DataStore()
