@@ -66,3 +66,13 @@ print(ds.read('name'))
 
 The application **doesn't have any OS specific dependencies and should run without any problems in Mac and Windows as well**.
 
+## Bugs/Requests 
+
+Please use the [GitHub issue tracker](https://github.com/smv1999/mercury-db/issues) to submit bugs or request features.
+
+## License 
+
+Copyright Vaidhyanathan S M, 2021
+
+Distributed under the terms of the [MIT](https://github.com/smv1999/mercury-db/blob/main/LICENSE) license, py-dsa is free and open source software.
+
